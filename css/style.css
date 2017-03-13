@@ -3,11 +3,16 @@ body{
 
 }
 
+#container{
+  background-color: #FDFEFE;
+  width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #header{
   background-color: #2E4053;
   color: #FDFEFE;
+  text-align: center;
 }
 
-#container{
-  background-color: #FDFEFE;
-}
