@@ -1,9 +1,13 @@
 body{
-  background-color: #EEEEEE;
+  background-color: #000000;
 
 }
 
 #header{
-  background-color: #17202A;
-  color: white;
+  background-color: #2E4053;
+  color: #FDFEFE;
+}
+
+#container{
+  background-color: #FDFEFE;
 }
