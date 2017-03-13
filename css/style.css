@@ -1,13 +1,18 @@
 body{
   background-color: #000000;
+  font-family: Helvetica, Arial, sans-serf;
 
 }
 
 a{
   text-decoration: none;
   color: #2E4053;
-  
 
+}
+
+h1,h2,h3{
+  margin: 0;
+  
 }
 
 #container{
