@@ -62,5 +62,8 @@ h1,h2,h3{
 #footer{
   clear: both;
   text-align: center;
+  background-color: #999999;
+  color: white;
+  
 
 }
