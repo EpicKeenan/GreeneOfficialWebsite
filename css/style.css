@@ -32,3 +32,9 @@ body{
   float: right;
 
 }
+
+#footer{
+  clear: both;
+  text-align: center;
+
+}
