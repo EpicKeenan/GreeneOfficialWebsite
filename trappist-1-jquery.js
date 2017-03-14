@@ -1,17 +1,20 @@
 $(document).ready(function(){
-    //Basic Selectors
-  
-    //Animators
-    $('#header').hide().delay(400).slideDown(800);
-    //Index Filters
-    $('#nav').hide().delay(400).slideDown(800);
-    
-    $('#nav') .hover(function(){
-        $(this).slideDown(800);
-    
-    });
-    //Relationship Filters
-  
-    //Attribute Filters
 
+    $("#header").hide().slideDown(800);
+    $('#nav').hide();
 });
+
+//$("html").hover(function(){
+
+    //$('#nav').slideDown(400);        
+//});
+
+$("html").hover(
+    function() {
+        $("#nav").show('fast'); 
+        //alert('teste')
+    },
+    function() {
+        $("#nav").hide('fast'); 
+    }
+);
