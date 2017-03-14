@@ -2,7 +2,7 @@ $(document).ready(function(){
     //Basic Selectors
   
     //Animators
-    $('*').hide().delay(400).slideDown(800);
+    $('#header').hide().delay(400).slideDown(800);
     //Index Filters
   
     //Relationship Filters
