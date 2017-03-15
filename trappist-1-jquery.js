@@ -1,4 +1,9 @@
 $(document).ready(function(){
+    
+    $(window).load(function() {
+         $('#loader').hide();
+         $('#container').show();
+    });
 
     $("#header").hide().slideDown(800);
     $('#nav').hide();
