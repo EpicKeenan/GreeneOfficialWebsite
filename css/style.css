@@ -29,6 +29,12 @@ h1,h2,h3{
   padding: 10px;
 }
 
+#parallax{
+  text-align: center;
+
+
+}
+
 #content{
   padding: 25px;
   margin: 25px;
