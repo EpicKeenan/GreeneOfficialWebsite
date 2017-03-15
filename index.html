@@ -9,6 +9,9 @@
   </head>
   
   <body>
+    
+    <div class="se-pre-con"></div>
+    
     <div id="container">
     
       <div id="header">
@@ -71,14 +74,20 @@
     </div>
     
     <script src="jquery-3.1.1.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
     <script src="jquery.parallax.min.js"></script>
     <script src="trappist-1-jquery.js"></script>
     <script>
       $('#scene').parallax({
       scalarX: 50,
       scalarY: 20
-      });
-      
+      });  
+    </script>
+    <script>
+      $(window).load(function() {
+		// Animate loader off screen
+		  $(".se-pre-con").fadeOut("slow");;
+	    });
     </script>
     
   </body>
