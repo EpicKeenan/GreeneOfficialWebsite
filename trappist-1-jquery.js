@@ -1,9 +1,8 @@
 $(document).ready(function(){
     
-    $(window).load(function() {
-         $('#loader').hide();
-         $('#container').show();
-    });
+    $(window).load(function(){
+    $('.preloader').delay(400).fadeOut(500);
+  });
 
     $("#header").hide().slideDown(800);
     $('#nav').hide();
