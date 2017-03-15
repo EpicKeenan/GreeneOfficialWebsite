@@ -5,7 +5,8 @@ body{
 }
 
 .no-js #loader { 
-  display: none;  }
+  display: none;  
+}
 
 .js #loader { 
   display: block; 
